@@ -102,7 +102,7 @@ func (c *lostMyIdServiceClient) SearchList(ctx context.Context, in *RangeSpanReq
 }
 
 type LostMyIdService_SearchListClient interface {
-	Recv() (*CollectibleResponse, error)
+	Recv() (*SearchResponse, error)
 	grpc.ClientStream
 }
 
@@ -110,8 +110,8 @@ type lostMyIdServiceSearchListClient struct {
 	grpc.ClientStream
 }
 
-func (x *lostMyIdServiceSearchListClient) Recv() (*CollectibleResponse, error) {
-	m := new(CollectibleResponse)
+func (x *lostMyIdServiceSearchListClient) Recv() (*SearchResponse, error) {
+	m := new(SearchResponse)
 	if err := x.ClientStream.RecvMsg(m); err != nil {
 		return nil, err
 	}
@@ -143,7 +143,7 @@ func (c *lostMyIdServiceClient) TransactionList(ctx context.Context, in *RangeSp
 }
 
 type LostMyIdService_TransactionListClient interface {
-	Recv() (*SearchResponse, error)
+	Recv() (*TransactionItem, error)
 	grpc.ClientStream
 }
 
@@ -151,8 +151,8 @@ type lostMyIdServiceTransactionListClient struct {
 	grpc.ClientStream
 }
 
-func (x *lostMyIdServiceTransactionListClient) Recv() (*SearchResponse, error) {
-	m := new(SearchResponse)
+func (x *lostMyIdServiceTransactionListClient) Recv() (*TransactionItem, error) {
+	m := new(TransactionItem)
 	if err := x.ClientStream.RecvMsg(m); err != nil {
 		return nil, err
 	}
@@ -275,7 +275,7 @@ func _LostMyIdService_SearchList_Handler(srv interface{}, stream grpc.ServerStre
 }
 
 type LostMyIdService_SearchListServer interface {
-	Send(*CollectibleResponse) error
+	Send(*SearchResponse) error
 	grpc.ServerStream
 }
 
@@ -283,7 +283,7 @@ type lostMyIdServiceSearchListServer struct {
 	grpc.ServerStream
 }
 
-func (x *lostMyIdServiceSearchListServer) Send(m *CollectibleResponse) error {
+func (x *lostMyIdServiceSearchListServer) Send(m *SearchResponse) error {
 	return x.ServerStream.SendMsg(m)
 }
 
@@ -314,7 +314,7 @@ func _LostMyIdService_TransactionList_Handler(srv interface{}, stream grpc.Serve
 }
 
 type LostMyIdService_TransactionListServer interface {
-	Send(*SearchResponse) error
+	Send(*TransactionItem) error
 	grpc.ServerStream
 }
 
@@ -322,7 +322,7 @@ type lostMyIdServiceTransactionListServer struct {
 	grpc.ServerStream
 }
 
-func (x *lostMyIdServiceTransactionListServer) Send(m *SearchResponse) error {
+func (x *lostMyIdServiceTransactionListServer) Send(m *TransactionItem) error {
 	return x.ServerStream.SendMsg(m)
 }
 

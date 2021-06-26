@@ -101,10 +101,10 @@ service LostMyIdService {
     // Log a new search request
     rpc Search (SearchRequest) returns (SearchResponse);
 
-    rpc SearchList (RangeSpanRequest) returns (stream CollectibleResponse);
+    rpc SearchList (RangeSpanRequest) returns (stream SearchResponse);
 
     rpc Progress (ProgressRequest) returns (ProgressResponse);
 
-    rpc TransactionList (RangeSpanRequest) returns (stream SearchResponse);
+    rpc TransactionList (RangeSpanRequest) returns (stream TransactionItem);
 
 }
