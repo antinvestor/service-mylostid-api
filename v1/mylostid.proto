@@ -1,7 +1,7 @@
 syntax = "proto3";
 
 package apis;
-option go_package = ".;lostmyid_v1";
+option go_package = ".;mylostid_v1";
 
 import "validate.proto";
 import "money.proto";

@@ -1,4 +1,4 @@
-module github.com/antinvestor/service-lostmyid-api
+module github.com/antinvestor/service-mylostid-api
 
 go 1.16
 
