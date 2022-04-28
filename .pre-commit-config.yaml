@@ -5,21 +5,21 @@ repos:
       name: Protoc generate resources
       always_run: true
       entry: protoc
-      args: ["--proto_path=../apis", "--proto_path=./v1", "--go_out=./", "--validate_out=lang=go:.", "ocr.proto"]
+      args: ["--proto_path=../apis", "--proto_path=./v1", "--go_out=./", "--validate_out=lang=go:.", "mylostid.proto"]
       language: system
       types: [bash]
     - id: protoc-generate-servers
       name: Protoc generate Servers
       always_run: true
       entry: protoc
-      args: ["--proto_path=../apis", "--proto_path=./v1", "ocr.proto", "--go-grpc_out=./"]
+      args: ["--proto_path=../apis", "--proto_path=./v1", "mylostid.proto", "--go-grpc_out=./"]
       language: system
       types: [bash]
     - id: protoc-generate-mocks
       name: Protoc generate Mocks
       always_run: true
       entry: mockgen
-      args: ["-source=ocr_grpc.pb.go", "-self_package=github.com/antinvestor/service-ocr-api", "-package=ocrv1", "-destination=ocr_grpc_mock.go"]
+      args: ["-source=mylostid_grpc.pb.go", "-self_package=github.com/antinvestor/service-mylostid-api", "-package=mylostidv1", "-destination=mylostid_grpc_mock.go"]
       language: system
       types: [bash]
 
