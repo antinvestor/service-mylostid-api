@@ -70,6 +70,8 @@ github.com/envoyproxy/protoc-gen-validate v0.6.11 h1:HNGBeEpNP25KhqhtcvxmIGaRoa7
 github.com/envoyproxy/protoc-gen-validate v0.6.11/go.mod h1:0ZMblUx0cxNoWRswEEXoj9kHBmqX8pxGweMiyIAfR6A=
 github.com/envoyproxy/protoc-gen-validate v0.6.12 h1:fm1ASBISy+M8UPDDwR4Wj4ZiaiGiFuO9ZTxOiw2U6oc=
 github.com/envoyproxy/protoc-gen-validate v0.6.12/go.mod h1:qEySVqXrEugbHKvmhI8ZqtQi75/RHSSRNpffvB4I6Bw=
+github.com/envoyproxy/protoc-gen-validate v0.6.13 h1:TvDcILLkjuZV3ER58VkBmncKsLUBqBDxra/XctCzuMM=
+github.com/envoyproxy/protoc-gen-validate v0.6.13/go.mod h1:qEySVqXrEugbHKvmhI8ZqtQi75/RHSSRNpffvB4I6Bw=
 github.com/ghodss/yaml v1.0.0/go.mod h1:4dBDuWmgqj2HViK6kFavaiC9ZROes6MMH2rRYeMEF04=
 github.com/go-gl/glfw v0.0.0-20190409004039-e6da0acd62b1/go.mod h1:vR7hzQXu2zJy9AVAgeJqvqgH9Q5CA+iKCZ2gyEVpxRU=
 github.com/go-gl/glfw/v3.3/glfw v0.0.0-20191125211704-12ad95a8df72/go.mod h1:tQ2UAYgL5IevRw8kRxooKSPJfGvJ9fJQFa0TUsXzTg8=
