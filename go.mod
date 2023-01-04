@@ -5,7 +5,7 @@ go 1.19
 require (
 	github.com/envoyproxy/protoc-gen-validate v0.9.1
 	github.com/golang/mock v1.6.0
-	google.golang.org/genproto v0.0.0-20221207170731-23e4bf6bdc37
+	google.golang.org/genproto v0.0.0-20230104163317-caabf589fcbf
 	google.golang.org/grpc v1.51.0
 	google.golang.org/protobuf v1.28.1
 )
