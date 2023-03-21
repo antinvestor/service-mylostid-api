@@ -3,7 +3,7 @@ module github.com/antinvestor/service-mylostid-api
 go 1.19
 
 require (
-	github.com/envoyproxy/protoc-gen-validate v0.10.0
+	github.com/envoyproxy/protoc-gen-validate v0.10.1
 	github.com/golang/mock v1.6.0
 	google.golang.org/genproto v0.0.0-20230320184635-7606e756e683
 	google.golang.org/grpc v1.53.0
