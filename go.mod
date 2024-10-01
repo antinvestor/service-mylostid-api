@@ -2,7 +2,7 @@ module github.com/antinvestor/service-mylostid-api
 
 go 1.21
 
-toolchain go1.23.1
+toolchain go1.23.2
 
 require (
 	github.com/envoyproxy/protoc-gen-validate v1.1.0
