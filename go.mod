@@ -8,7 +8,7 @@ require (
 	github.com/envoyproxy/protoc-gen-validate v1.1.0
 	github.com/golang/mock v1.6.0
 	google.golang.org/genproto v0.0.0-20250106144421-5f5ef82da422
-	google.golang.org/grpc v1.69.2
+	google.golang.org/grpc v1.69.4
 	google.golang.org/protobuf v1.36.2
 )
 
