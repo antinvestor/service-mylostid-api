@@ -7,7 +7,7 @@ toolchain go1.24.2
 require (
 	github.com/envoyproxy/protoc-gen-validate v1.2.1
 	github.com/golang/mock v1.6.0
-	google.golang.org/genproto v0.0.0-20250407143221-ac9807e6c755
+	google.golang.org/genproto v0.0.0-20250409194420-de1ac958c67a
 	google.golang.org/grpc v1.71.1
 	google.golang.org/protobuf v1.36.6
 )
