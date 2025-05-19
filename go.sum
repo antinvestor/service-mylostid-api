@@ -1166,6 +1166,8 @@ google.golang.org/genproto v0.0.0-20250505200425-f936aa4a68b2 h1:1tXaIXCracvtsRx
 google.golang.org/genproto v0.0.0-20250505200425-f936aa4a68b2/go.mod h1:49MsLSx0oWMOZqcpB3uL8ZOkAh1+TndpJ8ONoCBWiZk=
 google.golang.org/genproto v0.0.0-20250512202823-5a2f75b736a9 h1:0DnDgelxbooHLt0nyiPeCP0zrH/RL+UG558i1oNU1xE=
 google.golang.org/genproto v0.0.0-20250512202823-5a2f75b736a9/go.mod h1:IuQRZAKkz+Mhos3ZZ0+hcGaTmLuuTuGw344uzwztGl8=
+google.golang.org/genproto v0.0.0-20250519155744-55703ea1f237 h1:2zGWyk04EwQ3mmV4dd4M4U7P/igHi5p7CBJEg1rI6A8=
+google.golang.org/genproto v0.0.0-20250519155744-55703ea1f237/go.mod h1:LhI4bRmX3rqllzQ+BGneexULkEjBf2gsAfkbeCA8IbU=
 google.golang.org/genproto/googleapis/rpc v0.0.0-20230525234015-3fc162c6f38a h1:G02LUrBImjBevIpgWFY1zQ59biGKMvs3LRv90GaBv1E=
 google.golang.org/genproto/googleapis/rpc v0.0.0-20230525234015-3fc162c6f38a/go.mod h1:xURIpW9ES5+/GZhnV6beoEtxQrnkRGIfP5VQG2tCBLc=
 google.golang.org/genproto/googleapis/rpc v0.0.0-20230525234030-28d5490b6b19 h1:0nDDozoAU19Qb2HwhXadU8OcsiO/09cnTqhUtq2MEOM=
@@ -1312,6 +1314,8 @@ google.golang.org/genproto/googleapis/rpc v0.0.0-20250428153025-10db94c68c34 h1:
 google.golang.org/genproto/googleapis/rpc v0.0.0-20250428153025-10db94c68c34/go.mod h1:qQ0YXyHHx3XkvlzUtpXDkS29lDSafHMZBAZDc03LQ3A=
 google.golang.org/genproto/googleapis/rpc v0.0.0-20250505200425-f936aa4a68b2 h1:IqsN8hx+lWLqlN+Sc3DoMy/watjofWiU8sRFgQ8fhKM=
 google.golang.org/genproto/googleapis/rpc v0.0.0-20250505200425-f936aa4a68b2/go.mod h1:qQ0YXyHHx3XkvlzUtpXDkS29lDSafHMZBAZDc03LQ3A=
+google.golang.org/genproto/googleapis/rpc v0.0.0-20250512202823-5a2f75b736a9 h1:IkAfh6J/yllPtpYFU0zZN1hUPYdT0ogkBT/9hMxHjvg=
+google.golang.org/genproto/googleapis/rpc v0.0.0-20250512202823-5a2f75b736a9/go.mod h1:qQ0YXyHHx3XkvlzUtpXDkS29lDSafHMZBAZDc03LQ3A=
 google.golang.org/grpc v1.19.0/go.mod h1:mqu4LbDTu4XGKhr4mRzUsmM4RtVoemTSY81AxZiDr8c=
 google.golang.org/grpc v1.20.1/go.mod h1:10oTOabMzJvdu6/UiuZezV6QK5dSlG84ov/aaiqXj38=
 google.golang.org/grpc v1.21.1/go.mod h1:oYelfM1adQP15Ek0mdvEgi9Df8B9CZIaU1084ijfRaM=
