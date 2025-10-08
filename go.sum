@@ -1228,6 +1228,8 @@ google.golang.org/genproto v0.0.0-20251002232023-7c0ddcbb5797 h1:06qNPeHxbfl+OJl
 google.golang.org/genproto v0.0.0-20251002232023-7c0ddcbb5797/go.mod h1:OqVwZqqGV3h7k+YCVWXoTtwC2cs55RnDEUVMMadhxrc=
 google.golang.org/genproto v0.0.0-20251006185510-65f7160b3a87 h1:eLByv8Mvt9SXvVEi89aYl6KZeEcbteIeRZ4Y6Kpz3CM=
 google.golang.org/genproto v0.0.0-20251006185510-65f7160b3a87/go.mod h1:45Y7O/+fGjlhL8+FRpuLqM9YKvn+AU5dolRkE3DOaX8=
+google.golang.org/genproto v0.0.0-20251007200510-49b9836ed3ff h1:3jGSSqkLOAYU1gI52uHoj51zxEsGMEYatnBFU0m6pB8=
+google.golang.org/genproto v0.0.0-20251007200510-49b9836ed3ff/go.mod h1:45Y7O/+fGjlhL8+FRpuLqM9YKvn+AU5dolRkE3DOaX8=
 google.golang.org/genproto/googleapis/rpc v0.0.0-20230525234015-3fc162c6f38a h1:G02LUrBImjBevIpgWFY1zQ59biGKMvs3LRv90GaBv1E=
 google.golang.org/genproto/googleapis/rpc v0.0.0-20230525234015-3fc162c6f38a/go.mod h1:xURIpW9ES5+/GZhnV6beoEtxQrnkRGIfP5VQG2tCBLc=
 google.golang.org/genproto/googleapis/rpc v0.0.0-20230525234030-28d5490b6b19 h1:0nDDozoAU19Qb2HwhXadU8OcsiO/09cnTqhUtq2MEOM=
